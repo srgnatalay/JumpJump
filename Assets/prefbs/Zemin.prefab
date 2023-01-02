@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7137960372969603573}
   - component: {fileID: 826973193925529729}
   - component: {fileID: 1518739897595962174}
+  - component: {fileID: 3903814176233270661}
   m_Layer: 0
   m_Name: Zemin
   m_TagString: Untagged
@@ -156,7 +157,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: -1.46, y: 0}
+  m_Offset: {x: -3, y: 0}
   serializedVersion: 2
   m_Radius: 0.29389313
 --- !u!58 &826973193925529729
@@ -172,7 +173,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 1.46, y: 0}
+  m_Offset: {x: 3, y: 0}
   serializedVersion: 2
   m_Radius: 0.28670183
 --- !u!82 &1518739897595962174
@@ -271,3 +272,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!58 &3903814176233270661
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126261906622508046}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.28670183
