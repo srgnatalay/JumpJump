@@ -5,7 +5,6 @@ public class PlayerController : MonoBehaviour
 {
     private PlayerInput _playerInput;
     public float harekterhizi;
-    private float yatayhiz;
     
     [SerializeField] Rigidbody2D rb;
     void Start()
@@ -24,7 +23,7 @@ public class PlayerController : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Asit")
+        if (collision.gameObject.tag == "GameOver")
             GameManager.instance.GameOver();
     }
 
